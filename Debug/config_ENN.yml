@@ -1,0 +1,23 @@
+dataset: mnist
+backbone: LeNet
+pretrain: False
+
+num_workers: 4
+num_comp: 0
+
+#experiment type
+exp_type: 5
+
+train: True
+test: True
+
+batch_size: 64
+epochs: 20
+init_lr: 1.0e-4
+milestone1: 110
+milestone2: 130
+
+uncertainty: True 
+
+entropy_reg: False
+entropy_lam: 0.
